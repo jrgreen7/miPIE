@@ -1,0 +1,10 @@
+hybrid-ss-min 3.6 ran on mirdeep_dme_results.fa.fasta at Fri Oct 16 11:35:37 2015
+
+NA = RNA
+tMin = 37
+tInc = 1
+tMax = 37
+[Na+] = 1
+[Mg++] = 0
+maxloop = 30
+prefilter 2/2
