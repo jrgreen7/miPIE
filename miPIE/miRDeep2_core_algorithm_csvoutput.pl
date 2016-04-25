@@ -134,8 +134,10 @@ if($options{y}){parse_file_randfold($options{y})};
 
 ##SMIRP
 # Open the SMIRP output file (all SMIRP features)
-my $SMIRP_fname = "smirpFeatures.csv";
-open(SMIRP_OUT, "> $SMIRP_fname") or die("You failed to open the SMIRP features file!!");
+use File::Basename;
+my $arf_dir  = dirname($file_arf);
+my $SMIRP_fname = $arf_dir . "/" . "expressionFeatures.csv";
+open(SMIRP_OUT, "> $SMIRP_fname") or die("You failed to open the expression features file!!");
 my $SMIRP_printHeader = 1;
 
 #parse signature file in arf format and resolve each potential precursor
