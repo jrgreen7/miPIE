@@ -37,7 +37,7 @@ https://www.mdc-berlin.de/36381625/en/research/research_teams/systems_biology_of
 
 Download and install miRDeep2 and all dependencies. See https://www.mdc-berlin.de/8551903/en/ for details on installing the miRDeep2 package.
 
-Note: In case the install.pl file in the mirDeep2 folder ran into an error stating “ squid could not be downloaded”, replace address in line 230 of the file with : http://eddylab.org/software/squid/squid.tar.gz 
+Note: In case the install.pl file in the mirDeep2 folder ran into an error stating “ squid could not be downloaded”, replace address in line 230 of the file with : eddylab.org/software/squid/squid-1.9g.tar.gz 
 
 Download and install the numpy (http://www.numpy.org/) and scikit-learn (http://scikit-learn.org/stable/) python packages.
 
